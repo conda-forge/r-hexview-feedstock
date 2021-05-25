@@ -16,7 +16,6 @@ build:
   merge_build_host: True  # [win]
   number: 1
   noarch: generic
-
   rpaths:
     - lib/R/lib/
     - lib/
@@ -24,10 +23,8 @@ build:
 requirements:
   build:
     - {{ posix }}zip               # [win]
-
   host:
     - r-base
-
   run:
     - r-base
 
@@ -38,7 +35,7 @@ test:
 
 about:
   home: https://CRAN.R-project.org/package=hexView
-  license: GPL-2
+  license: GPL-2.0-only
   summary: Functions to view files in raw binary form like in a hex editor.  Additional functions
     to specify and read arbitrary binary formats.
   license_family: GPL2
@@ -47,7 +44,6 @@ about:
 extra:
   recipe-maintainers:
     - conda-forge/r
-    - PackageCondaDataScience
 
 # Package: hexView
 # Version: 0.3-4
