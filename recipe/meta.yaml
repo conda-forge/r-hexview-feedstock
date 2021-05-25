@@ -44,7 +44,6 @@ about:
 extra:
   recipe-maintainers:
     - conda-forge/r
-    - PackageCondaDataScience
 
 # Package: hexView
 # Version: 0.3-4
