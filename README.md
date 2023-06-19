@@ -1,11 +1,11 @@
-About r-hexview
-===============
+About r-hexview-feedstock
+=========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-hexview-feedstock/blob/main/LICENSE.txt)
 
 Home: https://CRAN.R-project.org/package=hexView
 
 Package license: GPL-2.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-hexview-feedstock/blob/main/LICENSE.txt)
 
 Summary: Functions to view files in raw binary form like in a hex editor.  Additional functions to specify and read arbitrary binary formats.
 
